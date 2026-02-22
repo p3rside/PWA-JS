@@ -1,28 +1,21 @@
 {
- "name": "PIAC TEST",
- "short_name": "PIAC",
- "lang": "en-US",
+ "name": "PIAC TEST - Eko Dżungla",
+ "short_name": "EkoDżungla",
+ "lang": "pl-PL",
  "start_url": "/index.html",
  "display": "standalone",
  "background_color": "#ffffff",
- "theme_color": "#db4938",
+ "theme_color": "#2e7d32",
  "icons": [
   {
-  "src": "images/favicon-96x96.png",
-  "sizes": "96x96",
-  "type": "image/png"
+   "src": "images/web-app-manifest-192x192.png",
+   "sizes": "192x192",
+   "type": "image/png"
   },
   {
-  "src": "images/web-app-manifest-192x192.png",
-  "sizes": "192x192",
-  "type": "image/png",
-  "purpose": "maskable"
-  },
-  {
-  "src": "images/web-app-manifest-512x512.png",
-  "sizes": "512x512",
-  "type": "image/png",
-  "purpose": "any"
+   "src": "images/web-app-manifest-512x512.png",
+   "sizes": "512x512",
+   "type": "image/png"
   }
  ]
 }

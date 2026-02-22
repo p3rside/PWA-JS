@@ -5,11 +5,19 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Eko-Dżungla | PWA</title>
  <link rel="stylesheet" href="style.css">
+ <link rel="manifest" href="site.webmanifest">
  
  <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+ <link rel="shortcut icon" href="favicon.ico">
+
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="default">
+ <meta name="apple-mobile-web-app-title" content="Eko-Dżungla">
  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
- <link rel="manifest" href="site.webmanifest">
+ <link rel="apple-touch-startup-image" href="images/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px)">
+ <link rel="apple-touch-startup-image" href="images/splash-2048x2732.png" media="(device-width: 1024px) and (device-height: 1366px)">
+ 
  <meta name="theme-color" content="#2e7d32">
 </head>
 <body>
@@ -18,34 +26,21 @@
    <div class="logo">Eko-Dżungla</div>
    <ul>
     <li><a href="index.html">Start</a></li>
-    <li><a href="rosliny.html">Rośliny</a></li>
-    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="#rosliny">Rośliny</a></li>
    </ul>
   </nav>
  </header>
 
- <main class="container">
-  <section class="hero">
-   <h1 class="title">Zmień swój dom w dżunglę</h1>
-   <p>Odkryj tajemnice pielęgnacji roślin w miejskich warunkach.</p>
-   <img src="images/web-app-manifest-512x512.png" alt="Logo PWA" class="hero-img">
-  </section>
-
-  <section class="content">
-   <h2>Dlaczego warto?</h2>
-   <p>Rośliny nie tylko zdobią, ale też oczyszczają powietrze i redukują stres.</p>
-   <div class="grid">
-    <div class="card">
-     <h3>Oczyszczanie</h3>
-     <p>Usuwają toksyny z otoczenia.</p>
-    </div>
-    <div class="card">
-     <h3>Relaks</h3>
-     <p>Zielony kolor uspokaja wzrok.</p>
-    </div>
+ <div class="container">
+  <main>
+   <h1 class="title">Witaj w Miejskiej Dżungli!</h1>
+   <p>Bottom text.</p>
+   <div class="card">
+    <h3>Pielęgnacja Monstery</h3>
+    <p>Pamiętaj o rozproszonym świetle i podlewaniu raz w tygodniu.</p>
    </div>
-  </section>
- </main>
+  </main>
+ </div>
 
  <script src="js/main.js"></script>
 </body>
