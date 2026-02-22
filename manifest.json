@@ -1,8 +1,10 @@
 {
+ "id": "/PWA-JS/",
  "name": "PIAC TEST - Eko Dżungla",
  "short_name": "EkoDżungla",
+ "description": "Przewodnik po roślinach w wersji PWA.",
  "lang": "pl-PL",
- "start_url": "/index.html",
+ "start_url": "index.html",
  "display": "standalone",
  "background_color": "#ffffff",
  "theme_color": "#2e7d32",
@@ -10,12 +12,14 @@
   {
    "src": "images/web-app-manifest-192x192.png",
    "sizes": "192x192",
-   "type": "image/png"
+   "type": "image/png",
+   "purpose": "any maskable"
   },
   {
    "src": "images/web-app-manifest-512x512.png",
    "sizes": "512x512",
-   "type": "image/png"
+   "type": "image/png",
+   "purpose": "any"
   }
  ]
 }
